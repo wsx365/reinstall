@@ -1285,7 +1285,7 @@ Continue?
             # 传统安装
             if is_in_china; then
                 case "$basearch" in
-                "x86_64") mirror=https://mirror.nju.edu.cn/ubuntu-releases/$releasever ;;
+                "x86_64") mirror=https://https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/$releasever ;;
                 "aarch64") mirror=https://mirror.nju.edu.cn/ubuntu-cdimage/releases/$releasever/release ;;
                 esac
             else
